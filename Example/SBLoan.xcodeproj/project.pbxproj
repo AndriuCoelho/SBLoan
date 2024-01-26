@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0497B25CF502994E49E05C6A /* Pods_SBLoan_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBLoan_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A2AE056E82BB7B6EF4BFB25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		189F5258DC0988E65CAB5FA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A2AE056E82BB7B6EF4BFB25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		189F5258DC0988E65CAB5FA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1B9594CEC9256C57BAF2486D /* Pods-SBLoan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBLoan_Tests.release.xcconfig"; path = "Target Support Files/Pods-SBLoan_Tests/Pods-SBLoan_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		24FFA3A5428CEA207369C5A0 /* Pods-SBLoan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBLoan_Example.release.xcconfig"; path = "Target Support Files/Pods-SBLoan_Example/Pods-SBLoan_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SBLoan_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBLoan_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		77D8E7F4B83095359D37DC67 /* Pods-SBLoan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBLoan_Example.debug.xcconfig"; path = "Target Support Files/Pods-SBLoan_Example/Pods-SBLoan_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B9A71DC6E16ACC1B510561CD /* Pods_SBLoan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBLoan_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D746511D8961529319A45B96 /* Pods-SBLoan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBLoan_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SBLoan_Tests/Pods-SBLoan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E204BE559066271AAF57C842 /* SBLoan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SBLoan.podspec; path = ../SBLoan.podspec; sourceTree = "<group>"; };
+		E204BE559066271AAF57C842 /* SBLoan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SBLoan.podspec; path = ../SBLoan.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				D746511D8961529319A45B96 /* Pods-SBLoan_Tests.debug.xcconfig */,
 				1B9594CEC9256C57BAF2486D /* Pods-SBLoan_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SBLoan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SBLoan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -516,6 +518,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +537,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
