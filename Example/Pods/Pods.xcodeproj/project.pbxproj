@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D46664F22E22C9EC023B99A2F3AC5E7 /* Pods-SBLoan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC2D0A7AAABC22DB108837AECFAD8D2 /* Pods-SBLoan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		185E0DD62B64251900CD7416 /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E0DD52B64251900CD7416 /* SBLoanView.swift */; };
-		185E0DD72B64251900CD7416 /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E0DD52B64251900CD7416 /* SBLoanView.swift */; };
+		185E0DD92B64425A00CD7416 /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E0DD82B64425A00CD7416 /* SBLoanView.swift */; };
+		185E0DDA2B64425A00CD7416 /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E0DD82B64425A00CD7416 /* SBLoanView.swift */; };
 		355118C88EE09E69AAF6E343DF123E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4AA66A4462F734A7C4D0072BFCA6795A /* Pods-SBLoan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D49B63C316229EFAAD6203319E95AA89 /* Pods-SBLoan_Tests-dummy.m */; };
 		600D7C231C301BCC005E154F2C58CE2B /* Pods-SBLoan_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2084825CEFD339191E8ECE281CBDD052 /* Pods-SBLoan_Example-dummy.m */; };
@@ -43,7 +43,7 @@
 		11E85E67A7745C81EAF680F81464510B /* Pods-SBLoan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SBLoan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		13A7E2E82A8F27A7D302FCC95CBEC961 /* Pods-SBLoan_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SBLoan_Example-frameworks.sh"; sourceTree = "<group>"; };
 		15B6DD15BE8C4148C66DA11EFCA690F9 /* Pods-SBLoan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SBLoan_Example.release.xcconfig"; sourceTree = "<group>"; };
-		185E0DD52B64251900CD7416 /* SBLoanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBLoanView.swift; path = SBLoan/Classes/SBLoanView.swift; sourceTree = "<group>"; };
+		185E0DD82B64425A00CD7416 /* SBLoanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBLoanView.swift; path = Classes/SBLoanView.swift; sourceTree = "<group>"; };
 		2084825CEFD339191E8ECE281CBDD052 /* Pods-SBLoan_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SBLoan_Example-dummy.m"; sourceTree = "<group>"; };
 		209F595CC8CB9F9F9071F1E9F3EB671D /* SBLoan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBLoan-umbrella.h"; sourceTree = "<group>"; };
 		281913B02538776C6AD00C5B0449EF19 /* SBLoan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SBLoan-Info.plist"; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		78F95950BD5C48F492E07AE64A4D9C41 /* SBLoan */ = {
 			isa = PBXGroup;
 			children = (
-				185E0DD52B64251900CD7416 /* SBLoanView.swift */,
+				185E0DD82B64425A00CD7416 /* SBLoanView.swift */,
 				79FE4EE5BEC26B17AD304E8BA1DB62B1 /* Pod */,
 				B175872B164FC96D032B32A45E1C81C7 /* Support Files */,
 			);
@@ -377,7 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				643599053E2FB82BBF562D6B230A3462 /* SBLoan-dummy.m in Sources */,
-				185E0DD72B64251900CD7416 /* SBLoanView.swift in Sources */,
+				185E0DDA2B64425A00CD7416 /* SBLoanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				600D7C231C301BCC005E154F2C58CE2B /* Pods-SBLoan_Example-dummy.m in Sources */,
-				185E0DD62B64251900CD7416 /* SBLoanView.swift in Sources */,
+				185E0DD92B64425A00CD7416 /* SBLoanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +432,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SBLoan_Tests/Pods-SBLoan_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SBLoan_Tests/Pods-SBLoan_Tests.modulemap";
@@ -465,7 +465,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SBLoan_Tests/Pods-SBLoan_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SBLoan_Tests/Pods-SBLoan_Tests.modulemap";
@@ -500,7 +500,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SBLoan_Example/Pods-SBLoan_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SBLoan_Example/Pods-SBLoan_Example.modulemap";
@@ -597,7 +597,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SBLoan_Example/Pods-SBLoan_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SBLoan_Example/Pods-SBLoan_Example.modulemap";
@@ -633,7 +633,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SBLoan/SBLoan-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SBLoan/SBLoan-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SBLoan/SBLoan.modulemap";
 				PRODUCT_MODULE_NAME = SBLoan;
@@ -732,7 +732,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SBLoan/SBLoan-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SBLoan/SBLoan-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SBLoan/SBLoan.modulemap";
 				PRODUCT_MODULE_NAME = SBLoan;
