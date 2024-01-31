@@ -22,7 +22,7 @@ pod 'SBLoan'
 
 ## Author
 
-matheusperezz, mah.c5r@gmail.com
+Alura
 
 ## License
 
